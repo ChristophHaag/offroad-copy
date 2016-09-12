@@ -1,0 +1,17 @@
+# Blender MTL File: /home/milan/Dokumenty/Modely/octavia-kolo.blend
+newmtl Chrome
+Ns 700.0
+Kd 0.600000 0.600000 0.600000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 0.75
+illum 2
+
+newmtl Black
+Ns 0.0
+Kd 0.000000 0.000000 0.000000
+Ka 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+d 0.75
+illum 2
+
