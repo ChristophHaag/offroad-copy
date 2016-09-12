@@ -204,7 +204,7 @@ vehicle_data::vehicle_data(int typ){
   int velikost = VelikostSouboru(cesta);
   char buffer[velikost];
   ifstream file(cesta, ios::in | ios::binary);
-  if (file == NULL) {
+  if (file.fail()) {
     cout << "Nepodarilo se otevrit DAT soubor." << endl;
     exit(1);
   }
